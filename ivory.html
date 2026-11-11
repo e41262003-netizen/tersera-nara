@@ -3,175 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivoire Atelier - Timeless Beauty</title>
-   <link rel="stylesheet" href="styleivory.css">
+    <title>Ivoire Atelier</title>
+    <link rel="stylesheet" href="styleivory.css">
 </head>
 <body>
+<div class="overlay">
 
-    <!-- Top bar -->
-    <div class="topbar">
-        <span>📍 Jl. Melati No. 8, Jember</span>
-        <span>📞 0812-0000-1234 &nbsp;|&nbsp; ✉ hello@ivoire-atelier.example</span>
-    </div>
-
-    <!-- Navigasi -->
-    <header class="navbar">
-        <a href="#home" class="logo">IVOIRE<span>atelier</span></a>
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li class="dropdown">
-                    <a href="#collection">Collection ▾</a>
-                    <ul class="submenu">
-                        <li><a href="#wedding">Wedding Dress</a></li>
-                        <li><a href="#party">Party Dress</a></li>
-                        <li><a href="#shoes">Shoes</a></li>
-                        <li><a href="#accessories">Accessories</a></li>
-                    </ul>
-                </li>
-                <li><a href="#why">Keunggulan</a></li>
-                <li><a href="#contact" class="btn-nav">Contact Us</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header>
+        <img src="logo.png" alt="Logo Ivoire Atelier">
+        <h1>Ivoire Atelier</h1>
+        <h3>"Timeless Beauty"</h3>
     </header>
 
-    <!-- Hero -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <p class="eyebrow">WELCOME TO IVOIRE</p>
-            <h1>Timeless Beauty</h1>
-            <p class="hero-text">
-                Keanggunan yang tenang untuk hari paling berarti dalam hidupmu.
-                Gaun, sepatu, dan aksesori yang dirancang dengan detail dan sepenuh hati.
-            </p>
-            <a href="#collection" class="btn">Lihat Koleksi</a>
-            <a href="#contact" class="btn btn-outline">Buat Janji</a>
-        </div>
-    </section>
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#why">Why Ivoire</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- Statistik -->
-    <section class="stats">
-        <div class="stat"><strong>500+</strong><span>Gaun Terjual</span></div>
-        <div class="stat"><strong>120+</strong><span>Desain Custom</span></div>
-        <div class="stat"><strong>8 Thn</strong><span>Pengalaman</span></div>
-        <div class="stat"><strong>4,9/5</strong><span>Kepuasan Klien</span></div>
-    </section>
-
-    <!-- Tentang -->
-    <section id="about" class="section about">
-        <div class="about-img">👰</div>
-        <div class="about-text">
-            <p class="eyebrow">TENTANG KAMI</p>
-            <h2>Cerita di Balik Setiap Gaun</h2>
+    <!-- Konten Utama -->
+    <main>
+        <section id="home">
+            <h2>Welcome to Ivoire!</h2>
             <p>
                 Ivoire Atelier lahir dari keyakinan bahwa kecantikan tidak perlu berteriak.
-                Kami memilih desain yang sederhana namun abadi, dengan bahan pilihan dan
-                pengerjaan yang teliti.
+                Kami menghadirkan gaun dan aksesori yang sederhana, elegan, dan abadi
+                untuk hari bahagiamu.
             </p>
+        </section>
+
+        <section id="collection">
+            <h2>Our Collection</h2>
+            <ul>
+                <li>👗 Wedding Dress – mulai Rp 3.500.000</li>
+                <li>💃 Party Dress – mulai Rp 850.000</li>
+                <li>👠 Shoes – mulai Rp 450.000</li>
+                <li>💍 Accessories – mulai Rp 150.000</li>
+            </ul>
+        </section>
+
+        <section id="why">
+            <h2>Why Ivoire Is Perfect for You</h2>
+            <ul>
+                <li>Personal style matching</li>
+                <li>Custom design</li>
+                <li>Elegant &amp; timeless aesthetic</li>
+                <li>Premium materials</li>
+                <li>Full detail</li>
+                <li>Supportive service</li>
+            </ul>
+        </section>
+
+        <article>
+            <h2>Upcoming Event</h2>
+            <time datetime="2026-12-05">5 Desember 2026</time>
             <p>
-                Bagi kami, hari bahagia bukan soal kemewahan semata, tetapi tentang
-                perasaan saat kamu bercermin dan merasa: inilah yang tepat.
+                Bridal Fitting Day! Coba gaun favoritmu bersama stylist kami
+                dan dapatkan konsultasi gratis.
             </p>
-            <a href="#contact" class="btn">Konsultasi Gratis</a>
-        </div>
-    </section>
+        </article>
 
-    <!-- Koleksi -->
-    <section id="collection" class="section collection">
-        <p class="eyebrow center">COLLECTION</p>
-        <h2 class="center">Koleksi Kami</h2>
-        <div class="cards">
-            <article id="wedding" class="card">
-                <div class="card-img c1">👗</div>
-                <h3>Wedding Dress</h3>
-                <p>Gaun pengantin klasik dengan potongan anggun dan detail bordir halus.</p>
-                <a href="#contact">Mulai Rp 3.500.000 →</a>
-            </article>
-            <article id="party" class="card">
-                <div class="card-img c2">💃</div>
-                <h3>Party Dress</h3>
-                <p>Gaun pesta untuk lamaran, wisuda, dan malam spesial lainnya.</p>
-                <a href="#contact">Mulai Rp 850.000 →</a>
-            </article>
-            <article id="shoes" class="card">
-                <div class="card-img c3">👠</div>
-                <h3>Shoes</h3>
-                <p>Sepatu nyaman dan elegan yang siap menemani langkahmu seharian.</p>
-                <a href="#contact">Mulai Rp 450.000 →</a>
-            </article>
-            <article id="accessories" class="card">
-                <div class="card-img c4">💍</div>
-                <h3>Accessories</h3>
-                <p>Veil, mahkota, dan perhiasan pelengkap tampilan pengantin.</p>
-                <a href="#contact">Mulai Rp 150.000 →</a>
-            </article>
-        </div>
-    </section>
-
-    <!-- Keunggulan -->
-    <section id="why" class="section why">
-        <p class="eyebrow center">WHY IVOIRE</p>
-        <h2 class="center">Kenapa Memilih Ivoire?</h2>
-        <div class="features">
-            <div class="feature"><span>🎨</span><h4>Personal Style Matching</h4><p>Kami bantu cocokkan gaya dengan kepribadianmu.</p></div>
-            <div class="feature"><span>✂️</span><h4>Custom Design</h4><p>Rancang gaun impianmu bersama desainer kami.</p></div>
-            <div class="feature"><span>✨</span><h4>Elegant &amp; Timeless</h4><p>Estetika sederhana yang tidak lekang oleh waktu.</p></div>
-            <div class="feature"><span>🧵</span><h4>Premium Materials</h4><p>Kain berkualitas yang nyaman dan tahan lama.</p></div>
-            <div class="feature"><span>🔍</span><h4>Full Detail</h4><p>Setiap jahitan dan payet dikerjakan teliti.</p></div>
-            <div class="feature"><span>🤝</span><h4>Supportive Service</h4><p>Pendampingan ramah dari konsultasi sampai hari-H.</p></div>
-        </div>
-    </section>
-
-    <!-- Berita / Event -->
-    <section class="section news">
-        <p class="eyebrow center">INFO TERBARU</p>
-        <h2 class="center">Kabar dari Ivoire</h2>
-        <div class="cards three">
-            <article class="news-item">
-                <time datetime="2026-12-05">5 Desember 2026</time>
-                <h3>Bridal Fitting Day</h3>
-                <p>Coba gaun favoritmu langsung dengan pendampingan stylist kami.</p>
-            </article>
-            <article class="news-item">
-                <time datetime="2026-12-20">20 Desember 2026</time>
-                <h3>Promo Akhir Tahun</h3>
-                <p>Diskon hingga 20% untuk koleksi party dress pilihan.</p>
-            </article>
-            <article class="news-item">
-                <time datetime="2027-01-10">10 Januari 2027</time>
-                <h3>Koleksi Baru 2027</h3>
-                <p>Peluncuran seri terbaru dengan nuansa putih gading dan champagne.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- Kontak -->
-    <section id="contact" class="section contact">
-        <div class="contact-info">
-            <p class="eyebrow">CONTACT US</p>
-            <h2>Hubungi Kami</h2>
-            <address>
-                <strong>Ivoire Atelier</strong><br>
-                Jl. Melati No. 8, Jember, Jawa Timur<br>
-                Telp: 0812-0000-1234<br>
-                Email: hello@ivoire-atelier.example<br>
-                Buka: Senin - Sabtu, 09.00 - 17.00
-            </address>
-        </div>
-        <form class="contact-form" onsubmit="return false;">
-            <input type="text" placeholder="Nama lengkap">
-            <input type="email" placeholder="Email">
-            <textarea rows="4" placeholder="Tulis pesanmu..."></textarea>
-            <button type="submit" class="btn">Kirim Pesan</button>
-        </form>
-    </section>
+        <address id="contact">
+            <p>
+                <strong>Our Store:</strong><br>
+                Ivoire Atelier<br>
+                Jl. Melati No. 8, Jember<br>
+                Telp: 0812-0000-1234
+            </p>
+        </address>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <p><strong>IVOIRE atelier</strong> - Timeless beauty, created with grace, detail, and devotion.</p>
-        <small>&copy; 2026 Ivoire Atelier. Tugas Praktikum CSS - Politeknik Negeri Jember.</small>
+        <small>
+            <i>Copyright &copy; 2026 Ivoire Atelier</i><br>
+            <a href="mailto:hello@ivoire-atelier.example">hello@ivoire-atelier.example</a>
+        </small>
     </footer>
 
+</div>
 </body>
 </html>
